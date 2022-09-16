@@ -4,11 +4,11 @@ If you don't know how the web and backend work, how you are going to secure.  Be
 Let's dive right in…
 
 - **Contents**
-1) What is Web?
-2) Components of Web
-3) How does the web work?
-4) How does information be transmitted on the web/internet?
-5) How does TCP/IP work for the Web?
+  - What is Web?
+  - Components of Web
+  - How does the web work?
+  - How does information be transmitted on the web/internet?
+  - How does TCP/IP work for the Web?
 
 # What is Web? 
   - The Web is known as a client-server system. Your computer is the client and the remote computers that store electronic files are the servers.
