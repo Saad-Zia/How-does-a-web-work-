@@ -49,7 +49,7 @@ when you click on the name it will directly call the phone number you do not nee
   
  - **Ports**
    - They are virtual places within an operating system where network connections start and end. Ports are software-based and managed by a computer's operating system. Each port is related with a specific process or service. Ports allow computers to easily differentiate between different kinds of request: emails go to a different port than webpages,, even though both reach a computer over the same Internet connection.
-Suppose Adam transfers an MP3 audio recording to John using the File Transfer Protocol (FTP). If Johne's computer passed the MP3 file data to John's email application, the email application would not know how to interpret it. But because Adam's file transfer uses the port designated for FTP (port 21), John's computer is able to receive and store the file.
+   - Suppose Adam transfers an MP3 audio recording to John using the File Transfer Protocol (FTP). If Johne's computer passed the MP3 file data to John's email application, the email application would not know how to interpret it. But because Adam's file transfer uses the port designated for FTP (port 21), John's computer is able to receive and store the file.
 Meanwhile, John's computer can simultaneously load HTTP webpages using port 80, even though both the webpage files and the MP3 sound file flow to John's computer over the same WiFi connection.
 
  
