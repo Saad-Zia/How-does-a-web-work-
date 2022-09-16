@@ -29,7 +29,7 @@ There are many types of servers, including web servers, database servers, file s
    - It is a unique address that identifies a device on the internet or on the local network. Every computer on the internet has an IP address that it uses to identify and communicate with other computers.  It looks like this
 104.16.66.85
 
- - **An internet connection **
+ - **An internet connection**
    - This is provided by an ISP and connects you to the internet to reach to any Website.
 Internet Service Provider. ISP is the middle man between the client and servers. When your browser gets a request from you to go to www.github.com, it doesn’t know where to look for www.github.com. So it’s the ISP’s job to do a DNS (Domain Name System) lookup to ask what IP address the site you’re trying to visit is configured to.
 
