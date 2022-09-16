@@ -67,7 +67,7 @@ Any website, especially those that require login credentials, should use HTTPS.
 https://github.com/someone. The URL specifies the protocol (“https”), host name (github.com) and file name (someone’s profile page).
 
 # How Web Works?
-  - You type a URL into your browser.
+1) You type a URL into your browser.
   - URL includes the protocol (“https”), the domain name (“github.com”) and the resource (“/”). In this case, there isn’t anything after the “.com” to indicate a specific resource, so the browser knows to retrieve just the main (index) page.
   - The browser communicates with your ISP to do a DNS lookupof the IP address for the web server that hosts www.github.com.
   - Once the ISP receives the IP address of the destination server,it sends it to your web browser.
