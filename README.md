@@ -24,3 +24,7 @@ Although we typically use a browser to access the web, you can think of your who
 The server has special server software installed and running which tells it how to respond to incoming requests from your browser. The primary function of a web server is to store, process and deliver web pages to clients.
 There are many types of servers, including web servers, database servers, file servers, application servers, and more.
 (In this paper, we’re talking about web servers.)
+
+ - **IP Address**
+   - It is a unique address that identifies a device on the internet or on the local network. Every computer on the internet has an IP address that it uses to identify and communicate with other computers.  It looks like this
+104.16.66.85
