@@ -73,3 +73,15 @@ https://github.com/someone. The URL specifies the protocol (“https”), host n
   - Once the ISP receives the IP address of the destination server,it sends it to your web browser.
   - Your browser takes the IP address and the given port numberfrom the URL (the HTTP protocol defaults to port 80 and HTTPS defaults to port 443) and opens a TCP socket connection. At this point, your web browser and web server are finally connected.
   - Your web browser sends an HTTP request to the web server forthe main HTML web page of www.github.com.
+  - The web server receives the request and looks for that HTMLpage. If the page exists, the web server sends back website's files to your browser as a series of small chunks called data packets. If the server cannot find the requested page, it will send an HTTP 404 error message, which stands for “Page Not Found”.
+  - Your web browser takes the HTML page, looks for other assetsthat are hosted, such as images, CSS files, JavaScript files, etc and assembles the small chunks  into a complete web page and displays it to you.
+  - For each asset listed, the web browser repeats the entireprocess above, making additional HTTP requests to the server for each resource.
+  - Once the browser has finished loading and assembling allother assets that were listed in the HTML page, the page will finally be displayed in browser window and the connection will be closed.
+
+
+# How does information be transmitted?
+  - When you make a request, that information is broken up into many tiny chunks called packets. Each packet is tagged with a TCP header, which include the source and destination port numbers, and an IP header which includes the source and destination IP addresses to give it its identity.
+  - The packet is then transmitted through ethernet, WiFi or radio network and is allowed to travel on any route and take as many hops as it needs to get to the final destination.
+Once the packets reach the destination, they are reassembled again and delivered as one piece.
+
+
