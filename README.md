@@ -41,4 +41,16 @@ Internet Service Provider. ISP is the middle man between the client and servers.
 www.github.com to get to a website on the internet. When you type the domain name into your browser, the DNS looks up the IP address for that given website. It’s like the phonebook of the internet having the name (domain name) and phone number (IP address) of everyone.
 when you click on the name it will directly call the phone number you do not need to memorize the IP address.
 
+ - **Protocols**
+   - They are the certain set of rules that the client-side (browser) and server-side follow to communicate with each other.
+  
+ - **TCP/IP**
+   - Transmission Control Protocol/Internet Protocol is used for communications protocol. TCP/IP is used as a standard set of rules for transmitting data over networks.
+  
+ - **Ports**
+   - They are virtual places within an operating system where network connections start and end. Ports are software-based and managed by a computer's operating system. Each port is related with a specific process or service. Ports allow computers to easily differentiate between different kinds of request: emails go to a different port than webpages,, even though both reach a computer over the same Internet connection.
+Suppose Adam transfers an MP3 audio recording to John using the File Transfer Protocol (FTP). If Johne's computer passed the MP3 file data to John's email application, the email application would not know how to interpret it. But because Adam's file transfer uses the port designated for FTP (port 21), John's computer is able to receive and store the file.
+Meanwhile, John's computer can simultaneously load HTTP webpages using port 80, even though both the webpage files and the MP3 sound file flow to John's computer over the same WiFi connection.
 
+ 
+ 
