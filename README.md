@@ -62,4 +62,9 @@ Meanwhile, John's computer can simultaneously load HTTP webpages using port 80, 
     - Hypertext transfer protocol secure (HTTPS) is the secure version of HTTP, which is the primary protocol used to send data between a web browser and a website. HTTPS is used to encrypt the data for security. This is p important when users transmit sensitive data, such as by logging into a bank account, email service, or health insurance provider.
 Any website, especially those that require login credentials, should use HTTPS.
 
- 
+ - **URL**
+   - Uniform Resource Locators. URLs identify a particular web resource. A simple example is
+https://github.com/someone. The URL specifies the protocol (“https”), host name (github.com) and file name (someone’s profile page).
+
+# How Web Works?
+  - You type a URL into your browser.
