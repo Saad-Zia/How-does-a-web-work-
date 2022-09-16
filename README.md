@@ -87,3 +87,6 @@ Once the packets reach the destination, they are reassembled again and delivered
 # How does TCP/IP work for the Web?
   - TCP/IP is a two-part system, functioning as the Internet’s fundamental “control system”. IP stands for Internet Protocol; its job is to send and route packets to other computers using the IP headers (i.e. the IP addresses) on each packet.
   - The second part, Transmission Control Protocol (TCP), is responsible for breaking the message or file into smaller packets, routing packets to the correct application on the destination computer using the TCP headers, resending the packets if they get lost on the way, and reassembling the packets in the correct order once they’ve reached the other end.
+
+# Conclusion
+  - So yeah, this is how web works in nutshell. I hope now  you got little bite of clarity about web working process. That’s it…
