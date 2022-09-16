@@ -13,3 +13,6 @@ Let's dive right in…
 # What is Web? 
   - The Web is known as a client-server system. Your computer is the client and the remote computers that store electronic files are the servers.
   - Here are some important terms or components of web to have a deep understanding of secret of the World Wide Web...
+
+# Components of Web
+ - **Contents**
