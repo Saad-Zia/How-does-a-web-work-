@@ -15,4 +15,7 @@ Let's dive right in…
   - Here are some important terms or components of web to have a deep understanding of secret of the World Wide Web...
 
 # Components of Web
- - **Contents**
+ - **Client**
+   - It means an application, such as Chrome or Firefox, that runs on a computer and is connected to the internet. Its job is to take requests and send them to another computer called a web server.
+Although we typically use a browser to access the web, you can think of your whole computer as the “Client” piece of the client-server model. Every client computer has a unique address called an IP address that other computers can use to identify it.
+
