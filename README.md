@@ -68,3 +68,8 @@ https://github.com/someone. The URL specifies the protocol (“https”), host n
 
 # How Web Works?
   - You type a URL into your browser.
+  - URL includes the protocol (“https”), the domain name (“github.com”) and the resource (“/”). In this case, there isn’t anything after the “.com” to indicate a specific resource, so the browser knows to retrieve just the main (index) page.
+  - The browser communicates with your ISP to do a DNS lookupof the IP address for the web server that hosts www.github.com.
+  - Once the ISP receives the IP address of the destination server,it sends it to your web browser.
+  - Your browser takes the IP address and the given port numberfrom the URL (the HTTP protocol defaults to port 80 and HTTPS defaults to port 443) and opens a TCP socket connection. At this point, your web browser and web server are finally connected.
+  - Your web browser sends an HTTP request to the web server forthe main HTML web page of www.github.com.
