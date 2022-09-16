@@ -68,15 +68,15 @@ https://github.com/someone. The URL specifies the protocol (“https”), host n
 
 # How Web Works?
 1) You type a URL into your browser.
-  - URL includes the protocol (“https”), the domain name (“github.com”) and the resource (“/”). In this case, there isn’t anything after the “.com” to indicate a specific resource, so the browser knows to retrieve just the main (index) page.
-  - The browser communicates with your ISP to do a DNS lookupof the IP address for the web server that hosts www.github.com.
-  - Once the ISP receives the IP address of the destination server,it sends it to your web browser.
-  - Your browser takes the IP address and the given port numberfrom the URL (the HTTP protocol defaults to port 80 and HTTPS defaults to port 443) and opens a TCP socket connection. At this point, your web browser and web server are finally connected.
-  - Your web browser sends an HTTP request to the web server forthe main HTML web page of www.github.com.
-  - The web server receives the request and looks for that HTMLpage. If the page exists, the web server sends back website's files to your browser as a series of small chunks called data packets. If the server cannot find the requested page, it will send an HTTP 404 error message, which stands for “Page Not Found”.
-  - Your web browser takes the HTML page, looks for other assetsthat are hosted, such as images, CSS files, JavaScript files, etc and assembles the small chunks  into a complete web page and displays it to you.
-  - For each asset listed, the web browser repeats the entireprocess above, making additional HTTP requests to the server for each resource.
-  - Once the browser has finished loading and assembling allother assets that were listed in the HTML page, the page will finally be displayed in browser window and the connection will be closed.
+2) URL includes the protocol (“https”), the domain name (“github.com”) and the resource (“/”). In this case, there isn’t anything after the “.com” to indicate a specific resource, so the browser knows to retrieve just the main (index) page.
+3) The browser communicates with your ISP to do a DNS lookupof the IP address for the web server that hosts www.github.com.
+4) Once the ISP receives the IP address of the destination server,it sends it to your web browser.
+5) Your browser takes the IP address and the given port numberfrom the URL (the HTTP protocol defaults to port 80 and HTTPS defaults to port 443) and opens a TCP socket connection. At this point, your web browser and web server are finally connected.
+6) Your web browser sends an HTTP request to the web server forthe main HTML web page of www.github.com.
+7) The web server receives the request and looks for that HTMLpage. If the page exists, the web server sends back website's files to your browser as a series of small chunks called data packets. If the server cannot find the requested page, it will send an HTTP 404 error message, which stands for “Page Not Found”.
+8) Your web browser takes the HTML page, looks for other assetsthat are hosted, such as images, CSS files, JavaScript files, etc and assembles the small chunks  into a complete web page and displays it to you.
+9) For each asset listed, the web browser repeats the entireprocess above, making additional HTTP requests to the server for each resource.
+10) Once the browser has finished loading and assembling allother assets that were listed in the HTML page, the page will finally be displayed in browser window and the connection will be closed.
 
 
 # How does information be transmitted?
