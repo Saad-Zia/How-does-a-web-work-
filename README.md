@@ -52,5 +52,14 @@ when you click on the name it will directly call the phone number you do not nee
    - Suppose Adam transfers an MP3 audio recording to John using the File Transfer Protocol (FTP). If Johne's computer passed the MP3 file data to John's email application, the email application would not know how to interpret it. But because Adam's file transfer uses the port designated for FTP (port 21), John's computer is able to receive and store the file.
 Meanwhile, John's computer can simultaneously load HTTP webpages using port 80, even though both the webpage files and the MP3 sound file flow to John's computer over the same WiFi connection.
 
+  - **Host**
+    - A computer connected to a network — it can be a client, server or any other type of device. Each host has a unique IP address. For a website like www.google.com, a host could be the web server that serves the pages for the website.
+   
+  - **HTTP** 
+    - Hyper-text Transfer Protocol. The protocol that web browsers and web servers use to communicate with each other over the Internet. Web server stores all data of any website in HTTP format.
  
+  - **HTTPs**
+    - Hypertext transfer protocol secure (HTTPS) is the secure version of HTTP, which is the primary protocol used to send data between a web browser and a website. HTTPS is used to encrypt the data for security. This is p important when users transmit sensitive data, such as by logging into a bank account, email service, or health insurance provider.
+Any website, especially those that require login credentials, should use HTTPS.
+
  
