@@ -33,3 +33,12 @@ There are many types of servers, including web servers, database servers, file s
    - This is provided by an ISP and connects you to the internet to reach to any Website.
 Internet Service Provider. ISP is the middle man between the client and servers. When your browser gets a request from you to go to www.github.com, it doesn’t know where to look for www.github.com. So it’s the ISP’s job to do a DNS (Domain Name System) lookup to ask what IP address the site you’re trying to visit is configured to.
 
+ - **DNS**
+   - Domain Name System. A distributed database which keeps track of computer’s domain names and their IP addresses on the Internet. DNS exists so users can enter www.github.com instead of an IP address.
+  
+ - **Domain Name**
+   - Users use the domain name (e.g.
+www.github.com to get to a website on the internet. When you type the domain name into your browser, the DNS looks up the IP address for that given website. It’s like the phonebook of the internet having the name (domain name) and phone number (IP address) of everyone.
+when you click on the name it will directly call the phone number you do not need to memorize the IP address.
+
+
