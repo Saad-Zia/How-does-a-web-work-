@@ -19,3 +19,8 @@ Let's dive right in…
    - It means an application, such as Chrome or Firefox, that runs on a computer and is connected to the internet. Its job is to take requests and send them to another computer called a web server.
 Although we typically use a browser to access the web, you can think of your whole computer as the “Client” piece of the client-server model. Every client computer has a unique address called an IP address that other computers can use to identify it.
 
+ - **Server**
+    - It is a remote computer which provides information or particular services and also has an IP address.  A server waits for requests from other machines (e.g. a client) and responds to them.
+The server has special server software installed and running which tells it how to respond to incoming requests from your browser. The primary function of a web server is to store, process and deliver web pages to clients.
+There are many types of servers, including web servers, database servers, file servers, application servers, and more.
+(In this paper, we’re talking about web servers.)
